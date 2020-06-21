@@ -1,0 +1,386 @@
+/* 
+    Style custom
+    made by @adethis
+    21 June 2020
+*/
+.bg-loan {
+  background-color: #00ABE5;
+}
+
+header[role=header] {
+  min-height: 230px;
+}
+
+.text-color-loan,
+.text-color-loan .icons {
+  color: #00ABE5;
+}
+
+.btn-signin {
+  background-color: #00ABE5;
+  border-color: #00ABE5;
+  border-radius: 50px;
+  min-width: 90px;
+  transition: all 0.2s ease-in;
+}
+
+.btn-signin:hover {
+  background-color: #0F93BF;
+  border-color: #0F93BF;
+  transition: all 0.2s ease-in;
+}
+
+.logo {
+  width: 135px;
+}
+
+.icons {
+  width: 14px;
+  margin-top: -5px;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-size: 0.875rem;
+}
+
+.text-white-90 {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.active.text-white-90 {
+  color: #FFFFFF !important;
+  text-decoration: underline !important;
+}
+
+.nav-scroller .text-white-90:hover,
+.nav-scroller .text-white-90:focus {
+  color: #FFFFFF !important;
+}
+
+.carousel-indicators.custom {
+  margin-left: 10%;
+  justify-content: left;
+}
+
+.carousel-indicators.custom li {
+  background-color: transparent;
+  border: 2px solid #00ABE5;
+  border-radius: 50%;
+  height: 30px;
+}
+
+@media screen and (max-width: 640px) {
+  .carousel-indicators.custom li {
+    height: 15px;
+    width: 15px;
+  }
+
+  .carousel-indicators.custom {
+    padding-bottom: 0px;
+  }
+}
+.carousel-indicators.custom-2 {
+  bottom: -60px;
+}
+
+.carousel-indicators.custom-2 li {
+  background-color: #00ABE5;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+
+.menu-product {
+  border-radius: 10px;
+  color: #FFFFFF;
+  height: 160px;
+  width: 240px;
+  min-width: 210px;
+}
+.menu-product img {
+  width: 110px;
+}
+
+a.menu-product {
+  font-size: 18px;
+}
+a.menu-product:hover {
+  color: #FFFFFF;
+}
+
+.menu-product.kpr {
+  background-color: #3D91C8;
+}
+
+.menu-product.refinance {
+  background-color: #55B3D9;
+}
+
+.menu-product.modal-usaha {
+  background-color: #78CBDE;
+}
+
+.menu-product.deposito {
+  background-color: #73BAD6;
+}
+.menu-product.deposito img {
+  width: 90px;
+}
+
+.menu-product.kredit {
+  background-color: #73BAD6;
+}
+
+.img-menu {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 640px) {
+  .menu-product {
+    height: 130px;
+    min-width: 160px;
+  }
+
+  .menu-product img {
+    width: 80px;
+  }
+
+  #product .nav-scroller .nav {
+    height: 150px;
+  }
+
+  .menu-product.deposito img {
+    width: 60px;
+  }
+
+  .menu-product span {
+    font-size: 14px;
+  }
+}
+.bx-shadow {
+  box-shadow: 0 20px 30px -16px rgba(9, 9, 16, 0.2);
+  transition: all 0.2s ease-in;
+}
+
+#partner .carousel-item img {
+  padding: 20px;
+}
+
+#why {
+  background-color: #00ABE5;
+  margin: 40px 0px;
+  min-height: 50vh;
+  padding: 40px 20px;
+}
+#why h5 {
+  line-height: 28px;
+}
+#why p {
+  line-height: 25px;
+}
+#why hr {
+  border: 1px solid #FFFFFF;
+}
+#why img {
+  width: 80px;
+}
+
+@media screen and (min-width: 640px) {
+  #why {
+    margin: 0px;
+    padding: 60px;
+  }
+}
+#pulseNews .card {
+  border: none;
+}
+#pulseNews .card-body {
+  padding: 0px;
+}
+#pulseNews .divider {
+  background: url(../img/line.png) center center no-repeat;
+}
+#pulseNews .card-img-top {
+  height: 130px;
+  object-fit: cover;
+}
+
+#startNow {
+  background-color: #088caf;
+  margin: 60px 0px;
+  min-height: 30vh;
+  padding: 40px 20px;
+  text-align: center;
+}
+#startNow .w-320 {
+  width: 320px;
+}
+
+.btn-startnow {
+  border-color: #FFFFFF;
+  border-radius: 50px;
+  color: #FFFFFF;
+  font-size: 21px;
+  min-width: 90px;
+  transition: all 0.2s ease-in;
+}
+.btn-startnow:hover {
+  color: #FFFFFF;
+  transition: all 0.2 ease-in;
+}
+
+.btn-startnow.simulate {
+  background-color: #f7941e;
+}
+.btn-startnow.simulate:hover {
+  background-color: #db851e;
+}
+
+.btn-startnow.join {
+  background-color: #00a651;
+}
+.btn-startnow.join:hover {
+  background-color: #128c4e;
+}
+
+.socmed {
+  width: 28px;
+}
+
+#subproduct {
+  background-color: #78CBDE;
+  margin: 0px 0px 40px;
+  min-height: 50vh;
+  padding: 40px 20px;
+}
+
+@media screen and (max-width: 640px) {
+  #subproduct {
+    min-height: 0px;
+    padding: 20px;
+  }
+  #subproduct .container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #subproduct .nav-scroller {
+    margin-top: 0px !important;
+  }
+}
+.tab-menu {
+  background: #FFFFFF;
+  border-radius: 20px;
+  min-width: 120px;
+  min-height: 120px;
+}
+.tab-menu .img-tab {
+  border-radius: 20px;
+  object-fit: cover;
+  height: 160px;
+  width: 100%;
+}
+.tab-menu .text-menu {
+  color: #FFFFFF;
+  font-size: 29px;
+  font-weight: bolder;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.tab-menu .overlay {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  left: 15px;
+  width: 95%;
+  height: 100%;
+  display: block;
+}
+.tab-menu .overlay.active,
+.tab-menu .active {
+  background: rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 640px) {
+  .tab-menu .overlay {
+    width: 85%;
+  }
+  .tab-menu .text-menu {
+    font-size: 21px;
+  }
+}
+.section-syarat {
+  background-color: #f58220;
+  border-radius: 10px;
+  min-height: 40vh;
+}
+
+.section-dokumen {
+  background-color: #32bcad;
+  border-radius: 10px;
+  min-height: 40vh;
+}
+
+.bg-cari {
+  background-color: #231f5c;
+  transition: all 0.3s ease;
+}
+
+form .icons {
+  margin: 0;
+  width: 22px !important;
+}
+
+.list-loan img {
+  max-height: 360px;
+  object-fit: cover;
+}
+.list-loan button img {
+  margin-top: -5px;
+  width: 20px;
+}
+
+.bg-green {
+  background-color: #32bcad;
+}
+
+.btn-contact {
+  background-color: #32bcad;
+  border-color: #32bcad;
+  border-radius: 50px;
+  min-width: 90px;
+  transition: all 0.2s ease-in;
+}
+
+.btn-contact:hover {
+  background-color: #26978b;
+  border-color: #32bcad;
+  transition: all 0.2s ease-in;
+}
+
+/*# sourceMappingURL=style.css.map */
